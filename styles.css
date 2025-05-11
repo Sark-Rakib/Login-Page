@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(165, 165, 69);
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  color: white;
+  background-color: rgb(18, 17, 17);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px -10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 107%;
+  padding: 10px;
+  margin: 15px -10px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246f47;
+}
+
+#message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
